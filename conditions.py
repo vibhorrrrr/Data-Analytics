@@ -9,3 +9,5 @@ df.columns = df.columns.str.strip()
 
 print(df[df['Age'] > 22])
 print(df[df['Salary'] >= 50000 ])
+
+

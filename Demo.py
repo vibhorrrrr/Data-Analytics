@@ -17,4 +17,8 @@ print(df)
 print("Mean Age: ", df['Age'].mean())
 print("Median Income: ", df['Income'].median())
 print("Mode of Income: ", df['Income'].mode()[0])
+
+#df['Income'].mode() → Series with all modes 
+#df['Income'].mode()[0] → First mode value only
+
 print("Standard Deviation: ", df['Income'].std())

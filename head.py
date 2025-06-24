@@ -16,4 +16,5 @@ print(df.dtypes)    # Data types of columns
 
 print(df.info())    # Summary
 
-print(df.describe())
+print(df.describe()) # Stats(Statistics) for numeric columns
+

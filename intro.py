@@ -1,13 +1,13 @@
-# comment
+# Comment
 print("Welcome to python data analysis intro")
 
-# variable
+# Variable
 name = "vibhor"
 age = 21
 print("Name: ", name)
 print("Age: ", age)
 
-# List
+# List -> Array
 marks = [80, 85, 90]
 print("Average marks: ", sum(marks)/len(marks))
 

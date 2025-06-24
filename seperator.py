@@ -1,6 +1,6 @@
 import pandas as pd
 
-# usecols is used to read the selected columns
+# if your file uses tabs, pipes, semicolons, or other characters instead of commas, use sep
 
 df = pd.read_csv("data.csv", sep='|')
 
