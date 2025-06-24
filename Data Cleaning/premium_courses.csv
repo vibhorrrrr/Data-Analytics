@@ -1,0 +1,3 @@
+CourseID,CourseName,Instructor,Category,Price,StudentsEnrolled,Rating,IsPublished,EstimatedRevenue
+102,Data Science Bootcamp,John Lee,Data Science,1299,950,4.8,Yes,1234050
+106,Machine Learning A-Z,Anita Sharma,Data Science,1499,740,4.9,Yes,1109260

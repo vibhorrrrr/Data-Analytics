@@ -1,0 +1,20 @@
+import csv
+
+# Define the data
+data = [
+    ["CourseID", "CourseName", "Instructor", "Category", "Price", "StudentsEnrolled", "Rating", "IsPublished"],
+    [101, "Python for Beginners", "Anita Sharma", "Programming", 499, 1200, 4.6, "Yes"],
+    [102, "Data Science Bootcamp", "John Lee", "Data Science", 1299, 950, 4.8, "Yes"],
+    [103, "Excel Essentials", "Megha Patel", "Business", 299, 1800, 4.1, "Yes"],
+    [104, "UI/UX Design Basics", "David Kim", "Design", 799, 800, 4.3, "No"],
+    [105, "Digital Marketing 101", "Neha Verma", "Marketing", 599, 1600, 4.2, "Yes"],
+    [106, "Machine Learning A-Z", "Anita Sharma", "Data Science", 1499, 740, 4.9, "Yes"],
+    [107, "Photography Masterclass", "Akash Sen", "Art", 899, 620, 4.4, "No"]
+]
+
+# Write to CSV
+with open("courses.csv", mode="w", newline="", encoding="utf-8") as file:
+    writer = csv.writer(file)
+    writer.writerows(data)
+
+print("CSV file 'courses.csv' created successfully.")
